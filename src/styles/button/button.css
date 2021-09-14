@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  font-family: var(--hind-madurai);
+  font-weight: 700;
+  color: #fafafa;
+  cursor: pointer;
+  background-color: #d64374;
+  border: none;
+  border-radius: 4px;
+}
+
+.button--primary {
+  padding: 12px 48px;
+}

@@ -1,0 +1,14 @@
+/* Base */
+@import "./normalize.css";
+@import "./variables.css";
+@import "./base.css";
+
+/* Blocks */
+@import "./header/header.css";
+@import "./menu/menu.css";
+@import "./button/button.css";
+@import "./hero/hero.css";
+@import "./delivery/delivery.css";
+@import "./details/details.css";
+@import "./tabs/tabs.css";
+@import "./our-product/our-product.css";

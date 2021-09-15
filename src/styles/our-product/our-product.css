@@ -9,53 +9,34 @@
 }
 
 .our-product__title {
-  margin: 0;
+  margin: 0 0 64px 0;
   font-family: var(--hind-madurai);
   font-size: 44px;
   font-weight: 600;
   color: #150101;
 }
 
-.our-product__tabs {
-  padding: 0;
-  margin: 64px 0;
-  border: none;
+.our-product__menu {
+  display: grid;
+  gap: 34px;
 }
 
-.our-product__tabs-caption {
+/* Класс специальный для презентации!
+Удалить перед применением! */
+.preview {
+  position: relative;
+}
+
+.preview__window {
   position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.our-product__tabs-input {
-  appearance: none;
-}
-
-.our-product__tabs-label {
-  font-family: var(--roboto);
-  font-size: 18px;
-  font-weight: 500;
-  color: #666;
+  top: 12px;
+  left: 50%;
+  padding: 24px 64px;
+  font-family: sans-serif;
+  color: #333;
   text-transform: uppercase;
-  cursor: pointer;
-}
-
-.our-product__tabs-label + .our-product__tabs-label {
-  margin-left: 40px;
-}
-
-#ice-cream:checked ~ label[for="ice-cream"],
-#cayenne-chocolate:checked ~ label[for="cayenne-chocolate"],
-#cake-batter:checked ~ label[for="cake-batter"],
-#candy-cane:checked ~ label[for="candy-cane"],
-#platters:checked ~ label[for="platters"],
-#dessert:checked ~ label[for="dessert"] {
-  color: #000;
-  text-decoration: underline 3px #d64374;
-}
-
-#ice-cream:checked#qwerty {
-  display: none;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 0.2);
+  transform: translateX(-50%);
 }

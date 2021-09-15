@@ -1,5 +1,5 @@
 .button {
-  display: block;
+  display: inline-block;
   font-family: var(--hind-madurai);
   font-weight: 700;
   color: #fafafa;

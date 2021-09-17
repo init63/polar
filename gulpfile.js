@@ -1,7 +1,6 @@
 import gulp from 'gulp';
 import babel from 'gulp-babel';
 import postcss from 'gulp-postcss';
-import replace from 'gulp-replace';
 import terser from 'gulp-terser';
 import pimport from 'postcss-import';
 import autoprefixer from 'autoprefixer';

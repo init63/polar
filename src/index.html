@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Polar</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/index.min.css" />
   </head>
   <body class="page__body">
@@ -657,6 +658,136 @@
         <div class="container">
           <div class="feedback__body">
             <h2 class="feedback__title">Feedback From Our Buyers</h2>
+            <div class="feedback__slider">
+              <div class="swiper slider-feedback">
+                <div class="swiper-wrapper slider-feedback__wrapper">
+                  <div class="swiper-slide slider-feedback__slide">
+                    <div class="feedback__author">
+                      <h3 class="feedback__name">Adele A. McNeill</h3>
+                      <p class="feedback__country">amirican</p>
+                    </div>
+                    <div class="feedback__comment">
+                      <p class="feedback__text">
+                        Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every Bite.Add a joy
+                        of best Taste. Foodie Moments.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-feedback__slide">
+                    <div class="feedback__author">
+                      <h3 class="feedback__name">James Daniels</h3>
+                      <p class="feedback__country">amirican</p>
+                    </div>
+                    <div class="feedback__comment">
+                      <p class="feedback__text">
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-feedback__slide">
+                    <div class="feedback__author">
+                      <h3 class="feedback__name">Denise Walters</h3>
+                      <p class="feedback__country">amirican</p>
+                    </div>
+                    <div class="feedback__comment">
+                      <p class="feedback__text">
+                        Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae
+                        ultricies leo integer malesuada nunc vel risus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper slider-feedback-author">
+                <div class="swiper-wrapper slider-feedback-author__wrapper">
+                  <div class="swiper-slide slider-feedback-author__slide">
+                    <picture>
+                      <source srcset="./images/feedback-autor-1.avif" type="image/avif" />
+                      <source srcset="./images/feedback-autor-1.webp" type="image/webp" />
+                      <img
+                        class="sslider-feedback-author__img"
+                        src="./images/feedback-autor-1.jpg"
+                        width="58"
+                        height="58"
+                        alt="One of the buyers"
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide slider-feedback-author__slide">
+                    <picture>
+                      <source srcset="./images/feedback-autor-2.avif" type="image/avif" />
+                      <source srcset="./images/feedback-autor-2.webp" type="image/webp" />
+                      <img
+                        class="slider-feedback-author__img"
+                        src="./images/feedback-autor-2.jpg"
+                        width="58"
+                        height="58"
+                        alt="One of the buyers"
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide slider-feedback-author__slide">
+                    <picture>
+                      <source srcset="./images/feedback-autor-3.avif" type="image/avif" />
+                      <source srcset="./images/feedback-autor-3.webp" type="image/webp" />
+                      <img
+                        class="slider-feedback-author__img"
+                        src="./images/feedback-autor-3.jpg"
+                        width="58"
+                        height="58"
+                        alt="One of the buyers"
+                      />
+                    </picture>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="slider__button-next"></div>
+                <div class="slider__button-prev"></div>
+              </div>
+              <div class="swiper slider-feedback-product">
+                <div class="swiper-wrapper slider-feedback-product__wrapper">
+                  <div class="swiper-slide slider-feedback-product__slide">
+                    <picture>
+                      <source srcset="./images/feedback-product-1.avif" type="image/avif" />
+                      <source srcset="./images/feedback-product-1.webp" type="image/webp" />
+                      <img
+                        class="slider-feedback-product__img"
+                        src="./images/feedback-product-1.jpg"
+                        width="564"
+                        height="442"
+                        alt="Purchased goods"
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide slider-feedback-product__slide">
+                    <picture>
+                      <source srcset="./images/feedback-product-2.avif" type="image/avif" />
+                      <source srcset="./images/feedback-product-2.webp" type="image/webp" />
+                      <img
+                        class="slider-feedback-product__img"
+                        src="./images/feedback-product-2.jpg"
+                        width="564"
+                        height="442"
+                        alt="Purchased goods"
+                      />
+                    </picture>
+                  </div>
+                  <div class="swiper-slide slider-feedback-product__slide">
+                    <picture>
+                      <source srcset="./images/feedback-product-3.avif" type="image/avif" />
+                      <source srcset="./images/feedback-product-3.webp" type="image/webp" />
+                      <img
+                        class="slider-feedback-product__img"
+                        src="./images/feedback-product-3.jpg"
+                        width="564"
+                        height="442"
+                        alt="Purchased goods"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -664,6 +795,7 @@
     </main>
     <footer class="footer">footer</footer>
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./scripts/tabs.min.js"></script>
     <script src="./scripts/index.min.js"></script>
   </body>

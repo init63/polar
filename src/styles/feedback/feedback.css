@@ -1,0 +1,29 @@
+.feedback {
+  background-color: #fff;
+}
+
+.feedback__body {
+  padding-top: 112px;
+  padding-bottom: 148px;
+}
+
+.feedback__title {
+  margin: 0;
+}
+
+.feedback__slider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 224px;
+  justify-content: space-between;
+}
+
+.feedback__comments,
+.feedback__product,
+.feedback__author {
+  min-width: 0;
+}
+
+.feedback__product {
+  grid-row: span 2;
+}
